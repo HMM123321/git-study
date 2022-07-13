@@ -1,0 +1,15 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hmm.integral.dao.inteDao">
+
+    <select id="query" resultType="Inte" parameterType="Inte">
+        select * from integral where username=#{username}
+    </select>
+
+    <update id="change">
+        update integral set number=#{number} where username=#{username}
+    </update>
+
+
+
+</mapper>

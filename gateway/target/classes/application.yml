@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: request_reatelimiter_route
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/test/**
+          filters:
+            - StripPrefix=1
+            - name: RequestRateLimiter
+              args:
+                keyResolver: '#{@ipAddressKeyResolver}'
+                redis-rate-limiter.replenishRate: 10
+                redis-rate-limiter.burstCapacity: 30
+  redis:
+    host: localhost
+    port: 6379
+
+
+#        - id: rateLimit_route
+#          uri: http://localhost:8081/
+#          predicates:
+#            - Path=/test/**
+#          filters:
+#            - StripPrefix=1
+#            - name: GatewayRateLimitFilterFactory
+#              args:
+#                capacity: 10
+#                refillTokens: 1
+#                refillDuration: 1
+server:
+  port: 9527
