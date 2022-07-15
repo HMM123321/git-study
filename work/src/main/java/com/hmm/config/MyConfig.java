@@ -25,9 +25,12 @@ public class MyConfig extends WebMvcConfigurationSupport {
     @Override
     protected void addInterceptors(InterceptorRegistry registry) {
         InterceptorRegistration registration = registry.addInterceptor(new MyIntercepter());
-        //registration.addPathPatterns("/**"); //所有路径都被拦截
-        registration.excludePathPatterns("/**");
+        registration.addPathPatterns("/**"); //所有路径都被拦截
+        //registration.excludePathPatterns("/**");
         registration.excludePathPatterns("/user/login");//不被拦截的路径
-        registration.excludePathPatterns("/test");
+        registration.excludePathPatterns("/user/register");
+        registration.excludePathPatterns("/user/index");
+        registration.excludePathPatterns("/templates/**");
+//        registration.excludePathPatterns("/test");
     }
 }

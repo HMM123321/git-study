@@ -77,8 +77,11 @@ public class userController {
             model.addAttribute("msg", "普通用户登录成功");
             mv.setViewName("index");
             httpSession.setAttribute("username", user.getUsername());
-        } else {
+        } else if (login == null && !user.getUsername().equals("")){
             model.addAttribute("msg", "账户或密码错误");
+            mv.setViewName("login");
+        } else{
+            model.addAttribute("msg","请输入账号密码");
             mv.setViewName("login");
         }
         if (login != null)

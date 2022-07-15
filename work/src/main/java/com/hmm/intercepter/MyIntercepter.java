@@ -24,7 +24,7 @@ public class MyIntercepter implements HandlerInterceptor {
                 return true;
             }
             response.sendRedirect(request.getContextPath() + "/user/login");
-            System.out.println("请求被拦截");
+            System.err.println("请求被拦截");
         } catch (IOException e) {
             e.printStackTrace();
         }

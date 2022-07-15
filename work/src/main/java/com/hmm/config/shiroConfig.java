@@ -70,7 +70,7 @@ public class shiroConfig {
     public ShiroFilterFactoryBean shiroFilterFactoryBean(SecurityManager manager) {
         ShiroFilterFactoryBean filter = new ShiroFilterFactoryBean();
         filter.setSecurityManager(manager);
-        filter.setLoginUrl("/user/login");
+        filter.setLoginUrl("/user/index");
         filter.setSuccessUrl("/success.html");
         filter.setUnauthorizedUrl("/refuse.html");
 
@@ -80,9 +80,10 @@ public class shiroConfig {
         map.put("/user/login", "anon");
         map.put("/user/query", "anon");
         map.put("/user/index", "anon");
-        //map.put("/user/register","anon");
-        //map.put("/**","authc");
-        map.put("/**", "anon");
+        map.put("/user/register","anon");
+        map.put("/user/logout","anon");
+        map.put("/**","authc");
+        //map.put("/**", "anon");
         filter.setFilterChainDefinitionMap(map);
         return filter;
     }
