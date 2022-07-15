@@ -23,7 +23,7 @@ public class MyIntercepter implements HandlerInterceptor {
             if (username != null) {
                 return true;
             }
-            response.sendRedirect(request.getContextPath() + "/user/login");
+            response.sendRedirect(request.getContextPath() + "/user/index");
             System.err.println("请求被拦截");
         } catch (IOException e) {
             e.printStackTrace();

@@ -70,7 +70,7 @@ public class shiroConfig {
     public ShiroFilterFactoryBean shiroFilterFactoryBean(SecurityManager manager) {
         ShiroFilterFactoryBean filter = new ShiroFilterFactoryBean();
         filter.setSecurityManager(manager);
-        filter.setLoginUrl("/user/index");
+        filter.setLoginUrl("/user/login");
         filter.setSuccessUrl("/success.html");
         filter.setUnauthorizedUrl("/refuse.html");
 
