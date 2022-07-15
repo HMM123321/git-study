@@ -36,6 +36,9 @@
                                 "username":"${row.username}","password":"${row.password}"}'>修改
                     </button>
                     <#if username == "admin">
+                        <button class="btn btn-danger" onclick="saveRow(${row.id})">新增</button>
+                    </#if>
+                    <#if username == "admin">
                         <button class="btn btn-danger" onclick="deleteRow(${row.id})">删除</button>
                     </#if>
                 </td>
@@ -66,6 +69,25 @@
                 error: function (data) {
                     window.location.reload();
                     alert("删除失败");
+                }
+            });
+    }
+    saveRow = function (rowId) {
+        if (rowId === 1) {
+            alert("管理员用户不可删除")
+        } else
+            $.ajax({
+                url: "/user/save",
+                data: {"id": rowId},
+                type: 'post',
+                success: function (data) {
+                    window.location.reload();
+                    console.log(data)
+                    alert("新增成功");
+                },
+                error: function (data) {
+                    window.location.reload();
+                    alert("新增失败");
                 }
             });
     }

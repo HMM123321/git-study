@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/service-config/demo.iml" filepath="$PROJECT_DIR$/service-config/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-config01/demotest.iml" filepath="$PROJECT_DIR$/service-config01/demotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service1/eureka-service1.iml" filepath="$PROJECT_DIR$/eureka-service1/eureka-service1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/git-study.iml" filepath="$PROJECT_DIR$/.idea/git-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integral/integral.iml" filepath="$PROJECT_DIR$/integral/integral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work/work.iml" filepath="$PROJECT_DIR$/work/work.iml" />
+    </modules>
+  </component>
+</project>
