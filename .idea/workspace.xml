@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90af8279-363f-4bef-9920-696096a7367a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/target/classes/com/hmm/EurekaServiceApplication$WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/target/classes/com/hmm/EurekaServiceApplication$WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/target/classes/com/hmm/EurekaServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/target/classes/com/hmm/EurekaServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/target/test-classes/com/hmm/EurekaServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/target/test-classes/com/hmm/EurekaServiceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/com/hmm/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/com/hmm/gateway/GatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/com/hmm/gateway/IpAddressKeyResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/com/hmm/gateway/IpAddressKeyResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/com/hmm/gateway/filter/GatewayRateLimitFilterByIp.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/com/hmm/gateway/filter/GatewayRateLimitFilterByIp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/test-classes/com/hmm/gateway/GatewayApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/test-classes/com/hmm/gateway/GatewayApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/integral.iml" beforeDir="false" afterPath="$PROJECT_DIR$/integral/integral.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/IntegralApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/IntegralApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/controller/inteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/controller/inteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/controller/testController.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/controller/testController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/controller/workController.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/controller/workController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/dao/inteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/dao/inteDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/entity/Inte.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/entity/Inte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/service/inteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/service/inteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/service/inteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/classes/com/hmm/integral/service/inteServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral/target/test-classes/com/hmm/integral/IntegralApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/integral/target/test-classes/com/hmm/integral/IntegralApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config/target/classes/com/hmm/ServiceConfigApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/target/classes/com/hmm/ServiceConfigApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config/target/test-classes/com/hmm/ServiceConfigApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/target/test-classes/com/hmm/ServiceConfigApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config01/target/classes/com/hmm/ServiceConfigApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-config01/target/classes/com/hmm/ServiceConfigApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config01/target/test-classes/com/hmm/ServiceConfigApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-config01/target/test-classes/com/hmm/ServiceConfigApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main/java/com/hmm/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main/java/com/hmm/controller/testController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main/java/com/hmm/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main/java/com/hmm/controller/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main/java/com/hmm/dao/userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main/java/com/hmm/dao/userDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main/java/com/hmm/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main/java/com/hmm/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main/java/com/hmm/service/userService.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main/java/com/hmm/service/userService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main/java/com/hmm/service/userServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main/java/com/hmm/service/userServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main/resources/mapper/userDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main/resources/mapper/userDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/main/resources/templates/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/main/resources/templates/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/src/test/java/com/hmm/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/src/test/java/com/hmm/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/WorkApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/WorkApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/config/MyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/config/shiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/config/shiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/controller/testController.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/controller/testController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/controller/userController.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/controller/userController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/dao/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/dao/userDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/entity/Inte.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/entity/Inte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/intercepter/MyIntercepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/intercepter/MyIntercepter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/realm/myRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/realm/myRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/service/inteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/service/inteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/service/userService.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/service/userService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/com/hmm/service/userServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/com/hmm/service/userServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/classes/templates/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/classes/templates/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/test-classes/com/hmm/WorkApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/test-classes/com/hmm/WorkApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/target/test-classes/com/hmm/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/target/test-classes/com/hmm/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/work/work.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Software\study software\Java\Maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Software/study software/Java/Maven/apache-maven-3.8.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Software\study software\Java\Maven\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ByJdqsGq9ZumhIBJH8xoLALkDh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.test.test05">
+    <configuration name="test.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmm" />
+      <option name="MAIN_CLASS_NAME" value="com.hmm.test" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmm" />
+      <option name="MAIN_CLASS_NAME" value="com.hmm.test" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmm.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmm.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegralApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="integral" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmm.integral.IntegralApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceConfigApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmm.ServiceConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demotest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmm.ServiceConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="work" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmm.WorkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.test05" />
+        <item itemvalue="JUnit.test.test04" />
+        <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90af8279-363f-4bef-9920-696096a7367a" name="Changes" comment="" />
+      <created>1657872484287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657872484287</updated>
+      <workItem from="1657872487470" duration="5789000" />
+      <workItem from="1658023213288" duration="5704000" />
+      <workItem from="1658113217673" duration="7690000" />
+      <workItem from="1658211346344" duration="4524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test1" />
+  </component>
+</project>

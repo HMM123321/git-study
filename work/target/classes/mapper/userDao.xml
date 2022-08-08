@@ -22,4 +22,8 @@
     <select id="query" resultType="User">
         select * from user
     </select>
+
+    <insert id="save" parameterType="User">
+        insert into user(username,password,integralNumber) value (#{username},#{password})
+    </insert>
 </mapper>

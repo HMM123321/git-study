@@ -19,4 +19,8 @@ public interface userService {
     List<User> query();
 
     int delete(Integer id);
+
+    Boolean save(User user);
+
+
 }

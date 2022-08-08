@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
  * @Author hmm
  * @Date 2021/9/17 14:22
  */
+
 @RequestMapping("/test")
 @RestController
 public class testController {

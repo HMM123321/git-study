@@ -106,4 +106,14 @@ public class test {
         userService.query();
         //System.out.println(users);
     }
+
+    @Test
+    public void test05(){
+        User user=new User();
+        user.setId(12);
+        user.setUsername("12");
+        user.setPassword("12");
+        user.setIntegralNumber(2000);
+        userService.save(user);
+    }
 }

@@ -27,7 +27,7 @@
                 <th scope="row">${row.id}</th>
                 <td>${row.username}</td>
                 <td>${row.password}</td>
-                <td>${(row.number)!" "}</td>
+                <td>${(row.integralNumber)!" "}</td>
 
 
                 <td>
@@ -35,9 +35,7 @@
                             data-id="alterCommit" data-param='{"id":"${row.id}",
                                 "username":"${row.username}","password":"${row.password}"}'>修改
                     </button>
-                    <#if username == "admin">
-                        <button class="btn btn-danger" onclick="saveRow(${row.id})">新增</button>
-                    </#if>
+
                     <#if username == "admin">
                         <button class="btn btn-danger" onclick="deleteRow(${row.id})">删除</button>
                     </#if>
@@ -50,7 +48,13 @@
     </#if>
     </tbody>
 </table>
+<#if username == "admin">
+<input placeholder="id"><input placeholder="用户名"><input placeholder="密码"><input placeholder="积分">
+    <button style="clear:both;color:pink;left: auto" onclick="saveRow(user)">新增</button>
+</#if>
+<br>
 <button style="clear:both;right: auto" id="quit">退出</button>
+
 
 <script>
     deleteRow = function (rowId) {
@@ -74,11 +78,11 @@
     }
     saveRow = function (rowId) {
         if (rowId === 1) {
-            alert("管理员用户不可删除")
+            alert("管理员用户不可更改")
         } else
             $.ajax({
                 url: "/user/save",
-                data: {"id": rowId},
+                data: user,
                 type: 'post',
                 success: function (data) {
                     window.location.reload();

@@ -17,13 +17,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-      <module name="demotest" target="1.8" />
-      <module name="eureka-service" target="1.8" />
-      <module name="eureka-service1" target="1.8" />
-      <module name="gateway" target="1.8" />
-      <module name="integral" target="1.8" />
-      <module name="work" target="1.8" />
+      <module name="demo" target="1.5" />
+      <module name="demotest" target="1.5" />
+      <module name="eureka-service" target="1.5" />
+      <module name="eureka-service1" target="1.5" />
+      <module name="gateway" target="1.5" />
+      <module name="integral" target="1.5" />
+      <module name="work" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

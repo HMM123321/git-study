@@ -20,5 +20,7 @@ public interface userDao {
 
     List<User> query();
 
+    Boolean save(User user);
+
     int delete(Integer id);
 }

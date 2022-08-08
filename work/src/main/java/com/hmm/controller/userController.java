@@ -11,9 +11,7 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
@@ -110,15 +108,16 @@ public class userController {
             return "login";
         }
         List<User> users = userService.query();
-        for (User user : users) {
-            try {
-                String number = inteservice.work(user.getUsername());
-                System.out.println(number);
-                user.setNumber(number);
-            } catch (Exception e){
-                System.err.println(e);
-                user.setNumber("network error");
-            }
+//        for (User user : users) {
+//            try {
+//
+//                String number = inteservice.work(user.getUsername());
+//                System.out.println(number);
+//                user.setNumber(number);
+//            } catch (Exception e){
+//                System.err.println(e);
+//                user.setNumber("network error");
+//            }
 
 //            ServiceInstance inte = loadBalancerClient.choose("inte");
 //            StringBuilder sb = new StringBuilder();
@@ -153,7 +152,7 @@ public class userController {
 //                } else {
 //                    System.err.println(connection.getResponseCode());
 //                }
-        }
+    //    }
 //        while (it.hasNext()){
 //            User user = it.next();
 //            String name = user.getUsername();
@@ -231,5 +230,22 @@ public class userController {
     public String logout(HttpSession httpSession) {
         httpSession.removeAttribute("username");
         return "login";
+    }
+
+    @PostMapping("/save")
+    public String save(User user, HttpSession httpSession){
+        Object username = httpSession.getAttribute("username");
+        if (username == null) {
+            return "请勿直接访问";
+        }
+        if (username != "admin"){
+            return "非管理员用户，无存储权限";
+        }
+        Boolean result= userService.save(user);
+        if(result){
+            return "保存成功";
+        }else{
+            return "保存失败";
+        }
     }
 }

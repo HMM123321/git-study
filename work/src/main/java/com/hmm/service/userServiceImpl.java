@@ -43,4 +43,9 @@ public class userServiceImpl implements userService {
     public int delete(Integer id) {
         return userDao.delete(id);
     }
+
+    @Override
+    public Boolean save(User user){
+        return userDao.save(user);
+    }
 }
